@@ -17,9 +17,16 @@ main:
   - name: Assignments
     url: /assignment/
     weight: 6
-  - name: Reference
-    url: /reference/
+  - name: Resources
+    url: /resource/
     weight: 7
+  - name: '<i class="fab fa-slack"></i>'
+    url: "https://gsudatavizm2020.slack.com"
+    weight: 8
+  - name: '<i class="fab fa-r-project"></i>'
+    url: "https://rstudio.cloud/"
+    weight: 9
+
 content:
   - name: Overview
     weight: 1
@@ -42,3 +49,8 @@ assignment:
     weight: 2
   - name: Exercises
     weight: 3
+resource:
+  - name: Resources
+    weight: 1
+  - name: Guides
+    weight: 2
